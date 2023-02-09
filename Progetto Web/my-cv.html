@@ -170,18 +170,19 @@
 
             <div class="contact-form">
 
-                <form action="">
+                <form data-netlify="true">
+
                     <label class="input-label" for="">Nome Cognome</label> 
-                    <input class="input-field" type="text" placeholder="Nome Cognome">
+                    <input class="input-field" type="text" name="Nome Cognome" placeholder="Nome Cognome" required>
 
                     <label class="input-label" for="">E-mail</label>
-                    <input class="input-field" type="email" placeholder="esempio@mail.it">
+                    <input class="input-field" type="email" name="email" placeholder="esempio@mail.it" required>
 
                     <label class="input-label" for="">Oggetto</label>
-                    <input class="input-field" type="email" placeholder="Oggetto">
+                    <input class="input-field" type="text" name="oggetto" placeholder="Oggetto">
 
                     <label class="input-label" for="">Messaggio </label>
-                    <textarea class="input-textarea" placeholder="Scrivi qui"></textarea>
+                    <textarea class="input-textarea" name="testo" placeholder="Scrivi qui" required></textarea>
 
                     <button class="button">Invia</button>
                 </form>

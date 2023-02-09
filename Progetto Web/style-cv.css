@@ -204,7 +204,7 @@ section {
 
 
 .item-title {
-    font-size: 18px;
+    font-size: 22px;
     color: #beda10;
     margin-bottom: 12px;
     font-weight: 600;
@@ -217,9 +217,15 @@ section {
 .first-company {
     margin-right: 110px;
     font-weight: 600;
+    font-size: 21px;
+}
+
+.second-company {
+    font-size: 19px;
 }
 
 .description-company {
+    font-size: 20px;
     margin-top: 35px;
 }
 
